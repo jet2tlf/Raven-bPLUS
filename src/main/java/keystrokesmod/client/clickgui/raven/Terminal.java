@@ -35,7 +35,7 @@ public class Terminal implements Component {
 
     private String inputText = "";
     private static ArrayList<String> out = new ArrayList<>();
-    private final String prefix = "$ ";
+    private final String prefix = "> ";
 
     private boolean dragging = false;
     private double windowStartDragX;
